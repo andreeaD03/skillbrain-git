@@ -1,0 +1,137 @@
+.nav{
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.content-container{
+    max-width: 1120px;
+    justify-content: center;
+    margin: auto;
+}
+#app-logo{
+    height: 40px;
+    margin-right: 16px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.row-centered{
+    justify-content: center;
+    align-items: center;
+}
+
+#app-title{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 28px;
+    color: #173A56;
+}
+.nav-bar-wraper{
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-links-container > a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #22343D;
+    margin: 0 20px
+}
+.primary-button{
+    background-color: #02897A;
+    border-radius: 4px;
+    height: 43px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    padding: 0 25px;
+}
+
+.button-outlined{
+    background-color: #FFFFFF;
+    color: #173A56;
+    border: 1px solid#173A56;
+
+}
+.buttons-nav{
+    margin: 0 12px;
+}
+.theme{
+    height:32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: #F3F3F3;
+    border:none;
+    cursor: pointer;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.nav-bar-buttons-container{
+    justify-content: flex-end;
+}
+.main-header{
+    font-family: sans-serif;
+    font-style: normal ;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    color: #22343D;
+}
+.content-right-col, .content-left-col{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subtitle{
+    font-family: sans-serif;
+    font-style: normal ;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color:#22343D;
+}
+.first-section-right-col{
+    background-image: url(./img3.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 555px;
+}
+.button-link{
+    color: #02897A;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px ;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #02897A;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#play-icon{ 
+    height: 17px;
+    margin-right: 9px;
+}
